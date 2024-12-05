@@ -1,5 +1,5 @@
 # Pixels Hub
-Node v22.12, Express v4.21 y Typescript v5.7 con TypeOrm y MySQL es una aplicación para administrar stocks de mercado.
+Node v22.12, Express v4.21 y Typescript v5.7 con TypeOrm y MySQL es una aplicación para administrar stocks de mercado desarrollado con una arquitectura CQRS.
 
 ### Pixels Hub es un backend para kioscos y supermercados, creada como una iniciativa de código abierto por Pixels Studio.
 ### Con Pixels Hub, los administradores pueden gestionar sus productos, realizar ventas y restockear con elegancia.
