@@ -1,0 +1,54 @@
+{
+  "name": "pixels-hub",
+  "version": "1.0.0",
+  "description": "Sistema de inventario para kiosco con soporte para lector de códigos de barras",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "tsnd --respawn src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxshdev/pixels-hub.git"
+  },
+  "keywords": [],
+  "author": "Pixels Studios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxshdev/pixels-hub/issues"
+  },
+  "homepage": "https://github.com/maxshdev/pixels-hub#readme",
+  "dependencies": {
+    "amqplib": "^0.10.5",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "class-validator": "^0.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.21.1",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "jwt-decode": "^4.0.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.11.5",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20",
+    "typeorm-naming-strategies": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/basic-auth": "^1.1.7",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^5.0.0",
+    "@types/express-session": "^1.17.7",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  }
+}
